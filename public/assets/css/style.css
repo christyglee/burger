@@ -1,7 +1,8 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  list-style-type: none;
+
 }
 
 .label {
@@ -17,3 +18,22 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+#background {
+  width: 100%; 
+  height: 100%; 
+  position: fixed; 
+  left: 0px; 
+  top: 0px; 
+  z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+  width:100%;
+  height:100%;
+}
+
+/* body {
+  background-color: turquoise;
+
+} */
