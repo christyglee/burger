@@ -33,3 +33,12 @@ li {
   height:100%;
 }
 
+.border {
+  border-radius: 10px;
+}
+
+/* .p-3 {
+  padding: 1rem;
+} */
+
+
