@@ -1,5 +1,9 @@
-<div class="container">
-  <div class="jumbotron mb-3 mt-3 text-center p-5">
+<div class="container" style="background-color: rgba(243, 122, 122, 0.4);">
+      <div id="background">
+      <img src="/assets/burger2.jpg" class="stretch" alt="burgers">
+    </div>
+    <br>
+  <div class="jumbotron mb-3 mt-3 text-center p-5" style="background-color: rgba(245, 245, 245, 0.7);">
     <h1 class="display-4">BURGERS</h1>
     <h5 class="display-5 text-center">Let's eat 'em</h5>
     <img src="/assets/burger1.png" alt="Cartoon Burger" width="60" height="60" style="vertical-align:middle">
@@ -8,13 +12,13 @@
   <div class="row m-0">
     <div class="col-md p-0 m-0 mb-3">
       <div class="row m-0">
-        <div class="col-md border p-3 mb-3 bg-cake text-center">
-          <h4 class="text-burger p-0 m-0">Burgers to EAT!</h4>
+        <div class="col-md border p-3 mb-3 bg-burger text-center" style="background-color: rgba(245, 245, 245, 0.7);">
+          <h4 class="text-burger p-0 m-0">BURGERS on my BRAIN!</h4>
         </div>
       </div>
       <div class="row m-0">
-        <div class="col-md border p-3 bg-cake" style="height: 365px">
-          <div class="card overflow-auto" style="height: 330px">
+        <div class="col-md border p-3 bg-burger" style="height: 365px; background-color: rgba(245, 245, 245, 0.5);">
+          <div class="card overflow-auto" style="height: 330px; background-color: rgba(245, 245, 245, 0.7);">
             <div class="card-body text-center">
               <ul>
                 {{#each burgers}}
@@ -24,6 +28,7 @@
                 {{/each}}
               </ul>
             </div>
+            
           </div>
         </div>
       </div>
@@ -34,13 +39,13 @@
     <div class="col-md-space"></div>
     <div class="col-md m-0 p-0 mb-3">
       <div class="row m-0">
-        <div class="col-md col-md border p-3 mb-3 bg-cake text-center">
-          <h4 class="text-burger p-0 m-0">Burgers in my TUMMY!</h4>
+        <div class="col-md col-md border p-3 mb-3 bg-burger text-center" style="background-color: rgba(245, 245, 245, 0.7);">
+          <h4 class="text-burger p-0 m-0">YUMMY in my TUMMY!</h4>
         </div>
       </div>
       <div class="row m-0">
-        <div class="col-md border p-3 bg-cake" style="height: 365px">
-          <div class="card overflow-auto" style="height: 330px">
+        <div class="col-md border p-3 bg-burger" style="height: 365px; background-color: rgba(245, 245, 245, 0.5);">
+          <div class="card overflow-auto" style="height: 330px; background-color: rgba(245, 245, 245, 0.7);">
             <div class="card-body text-center">
               <ul>
                 {{#each burgers}}
@@ -55,27 +60,34 @@
       </div>
     </div>
   </div>
-</div>
 
 
-<div class="jumbotron mb-2 text-center p-4">
+
+<div class="jumbotron mb-2 text-center p-4" style="background-color: rgba(245, 245, 245, 0.7);">
   <label class="font-weight-bold"><h4>Add a Burger:</label></h4>
 
   <form class="create-form">
 
     <div class="form-group text-center">
-      <label for="bu"><strong>Burger Name:</label></strong>
+      <label for="bu">Burger Name:</label>
       <input type="text" id="bu" name="burger_name">
     </div>
 
     <div class="form-group">
-      <label for="hungry"><strong>Hungry?</label></strong><br>
-      <input type="radio" name="devoured" value="1" checked><strong> YES!</strong><br>
-      <input type="radio" name="devoured" value="0"><strong> NAH!</strong>
+      <label for="hungry">Hungry?</label><br>
+      <input type="radio" name="devoured" value="1" checked> GIMME NOW!<br>
+      <input type="radio" name="devoured" value="0"> QUEUE IT!
     </div>
 
     <button type="submit">Add a Burger</button>
-  </form>
+      </form>
 </div>
-</div>
-</div>
+    <div class="text-center">
+        <a href="https://github.com/christyglee/burger" target="new"><strong>GitHub Repo</a></strong>
+    <br>
+    
+    </div>
+  
+
+
+
